@@ -1,6 +1,5 @@
 import React, {useRef} from 'react'
 import {MdOutlineMailOutline} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import emailjs from 'emailjs-com';
 
@@ -32,7 +31,7 @@ const Contact = () => {
             <MdOutlineMailOutline className='contact__option-item'/>
             <h4>Email</h4>
             <h5>sharmarupesh2120@gmail.com</h5>
-            <a href="mailto:rupeshsharma2196@gmail.com" target="_blank">Send a message</a>
+            <a href="mailto:rupeshsharma2196@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           {/* <article className='contact__option'>
             <RiMessengerLine className='contact__option-item'/>
@@ -44,7 +43,7 @@ const Contact = () => {
             <BsWhatsapp className='contact__option-item'/>
             <h4>WhatsApp</h4>
             <h5>8976393078</h5>
-            <a href="https://api.whatsapp.com/send?phone=+918976393078" target="_blank">Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone=+918976393078" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* End of contact options */}

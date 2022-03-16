@@ -6,10 +6,10 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>Rupesh</a>
+      <a href="#home" className='footer__logo'>Rupesh</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         {/* <li><a href="#services">Services</a></li> */}
@@ -19,9 +19,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><AiFillFacebook /></a>
-        <a href="https://instagram.com"><BsInstagram /></a>
-        <a href="https://twitter.com"><FiTwitter /></a>
+        <a href="https://www.facebook.com/rupesh.sharma.5817300" target="_blank" rel="noreferrer"><AiFillFacebook /></a>
+        <a href="https://www.instagram.com/rupesh_sharma21/" target="_blank" rel="noreferrer"><BsInstagram /></a>
+        <a href="https://twitter.com/sharmarupesh21" target="_blank" rel="noreferrer"><FiTwitter /></a>
       </div>
 
       <div className="footer__copyright">
